@@ -166,7 +166,7 @@ Crearemos una tabla y añadiremos datos a ella desde nuestra aplicación
    ```
 
 
-## 5 - Eliminar varios de clientes con hql
+## 5 - Eliminar varios clientes con hql
 
 - Creamos una nueva clase EliminarClientes, muy parecida a leerClientes pero esta vez para eliminarlos. Para hacer el eliminado más interesante borraremos sólo los que empiecen por la letra G. Introducimos una query hql para eliminar los clientes.
   - [EliminaClientes.java](src/es/eoi/ejercicios/conexionHibernate/EliminarClientes.java)
