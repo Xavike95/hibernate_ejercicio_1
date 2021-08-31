@@ -65,12 +65,12 @@ Crearemos una tabla y añadiremos datos a ella desde nuestra aplicación
      </hibernate-configuration>
      ```
 
- - Creamos un nuevo paquete [es.eoi.ejercicios.conexionHibernate](src/es/eoi/ejercicios/conexionHibernate)
-   - Creamos una clase con el mismo nombre que la tabla [Clientes.java](src/es/eoi/ejercicios/conexionHibernate/Clientes.java)
+ - Creamos un nuevo paquete es.eoi.ejercicios.conexionHibernate
+   - Creamos una clase con el mismo nombre que la tabla Clientes.java
    - Creamos los campos acorde a la tabla
    - Añadimos las anotaciones de Hibernate `@Entity`, `@Table`, `@Id`, `@Column` (si hace falta), constructor, toString y los getter y setters
  - Cremos una clase que se encargará de guardar un cliente 
-   - [GuardaCliente.java](src/es/eoi/ejercicios/conexionHibernate/GuardaCliente.java)
+   - GuardaCliente.java
    - Con un try catch para controlar posibles errores abriremos la sesión y haremos el commit del nuevo cliente
    ```java
         public static void main(String[] args){
